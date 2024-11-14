@@ -1,14 +1,17 @@
 import React from 'react';
 import './BusinessCard.css';
 import styles from './BusinessCard.module.css';
+import '../assets/5.jpg'
+
+const classes = `business-card ${styles.moduleStyle}`
 
 function BusinessCard({contact}) {
 
-  const {name, position, email, phone, website} = contact;
+  const {name, position, email, phone, website, image} = contact;
   return (
-    <div className="business-card">
+    <div className={classes}>
       <div className="photo-placeholder">
-        {/* Placeholder for image */}
+        <img src={image} alt="person" />
       </div>
       <div className={styles.moduleStyle}>
         <h2>{name}</h2>

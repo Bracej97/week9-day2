@@ -4,7 +4,8 @@
     "position": "Software Engineer",
     "email": "john.doe@example.com",
     "phone": "(123) 456-7890",
-    "website": "www.johndoe.com"
+    "website": "www.johndoe.com",
+    "image": "../assets/5.jpg"
   },
   {
     "name": "Jane Smith",
